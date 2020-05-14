@@ -1,0 +1,24 @@
+.Product {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+}
+
+.Product_name {
+  padding: 0 10px 10px 10px;
+  font-size: .9em;
+  color: var(--title-color);
+}
+.Product_price {
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.Product_button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}

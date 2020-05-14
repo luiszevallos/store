@@ -1,0 +1,16 @@
+.TitleStore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.TitleStore_title {
+  font-size: 2em;
+}
+
+.TitleStore_subTitle {
+  font: 1em;
+  color: var(--title-color);
+}
